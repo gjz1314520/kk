@@ -1,0 +1,21 @@
+{
+  "name": "626",
+  "version": "1.0.0",
+  "description": "安装  1. 初始化 npm init -y  2. npm install webpack webpack-cli -D   -D 表示开发环境",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "build": "webpack "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "css-loader": "^3.0.0",
+    "style-loader": "^0.23.1"
+  }
+}
